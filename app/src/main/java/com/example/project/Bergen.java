@@ -26,5 +26,4 @@ public class Bergen {
         this.name = name;
     }
 
-
 }
