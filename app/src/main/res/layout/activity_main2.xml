@@ -8,6 +8,7 @@
 
     <TextView
         android:id="@+id/TextView"
+        android:text="@string/about"
         android:layout_width="360dp"
         android:layout_height="99dp"
         app:layout_constraintBottom_toBottomOf="parent"
