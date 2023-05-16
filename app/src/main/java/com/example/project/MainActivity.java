@@ -2,10 +2,12 @@ package com.example.project;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import android.widget.TextView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -23,8 +25,8 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
     private ArrayList<Bergen> Berg;
     private RecyclerViewAdapter Adaptern;
 
-    private Intent knopp;
-    private Button button1;
+    TextView TextView;
+    Button Buttonknapp;
 
 
     @Override
@@ -39,7 +41,23 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
         Adaptern = new RecyclerViewAdapter(Berg);
         RecyclerView.setAdapter(Adaptern);
         RecyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+
+        /* Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar); */
+
+
+        Buttonknapp = findViewById(R.id.Button1);
+        Buttonknapp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Intent = new Intent(MainActivity.this, MainActivity2.class);
+                startActivity(Intent);
+            }
+        });
+
     }
+
 
     @Override
     public void onPostExecute(String json) {

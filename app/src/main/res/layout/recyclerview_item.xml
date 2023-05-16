@@ -8,12 +8,13 @@
 
     <TextView
         android:id="@+id/name"
-        android:layout_width="130dp"
-        android:layout_height="wrap_content" />
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp" />
 
     <TextView
         android:id="@+id/size"
-        android:layout_width="130dp"
+        android:layout_width="139dp"
         android:layout_height="wrap_content" />
 
 </LinearLayout>
