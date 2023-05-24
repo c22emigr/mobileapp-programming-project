@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Project</string>
-    <string name="about">Den här appen visar namnet på olika djur från den afrikanska kontinenten och deras längd i cm</string>
+    <string name="about">Den här appen riktar sig till alla djurintresserade då appen visar namnet på olika djur från den afrikanska kontinenten och deras längd i cm</string>
 
 </resources>
