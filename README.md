@@ -1,9 +1,10 @@
 
 # Rapport
 
-**Skriv din rapport här!**
+![img.png](img.png)
 
-_Du kan ta bort all text som finns sedan tidigare_.
+![img_1.png](img_1.png)
+
 
 ## Följande grundsyn gäller dugga-svar:
 
